@@ -5,12 +5,11 @@
 }
 html {
     height: 100%;
-    overflow: auto;
 }
 body {
-    overflow: auto;
     min-height: 100vh;
     background-color: lightgrey;
+    display: grid;
 }
 p {
     color: grey;
@@ -18,7 +17,8 @@ p {
 .section-container {
     display: grid;
     grid-template-columns: 0.8fr 3fr;
-
+    min-height: 100vh;
+    min-width: 100vw;
 }
 .upper-main {
     display: grid;
